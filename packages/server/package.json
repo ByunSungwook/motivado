@@ -1,0 +1,21 @@
+{
+    "name": "@motivado/server",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "dev": "tsx watch src/index.ts",
+      "build": "tsc",
+      "start": "node dist/index.js",
+      "type-check": "tsc --noEmit"
+    },
+    "dependencies": {
+      "@hono/node-server": "^1.8.2",
+      "hono": "^4.0.0",
+      "@motivado/shared": "workspace:*"
+    },
+    "devDependencies": {
+      "tsx": "^4.7.1",
+      "typescript": "^5.0.0",
+      "@types/node": "^20.0.0"
+    }
+  }
