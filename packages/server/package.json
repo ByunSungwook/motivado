@@ -10,8 +10,7 @@
     },
     "dependencies": {
       "@hono/node-server": "^1.8.2",
-      "hono": "^4.0.0",
-      "@motivado/shared": "workspace:*"
+      "hono": "^4.0.0"
     },
     "devDependencies": {
       "tsx": "^4.7.1",
